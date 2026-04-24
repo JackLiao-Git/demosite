@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarVision | 專業汽車介紹網站</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">CAR<span>VISION</span></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">首頁</a></li>
+                    <li><a href="articles.html">文章導覽</a></li>
+                    <li><a href="#">關於我們</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Banner / Carousel -->
+        <section class="hero">
+            <div class="carousel" id="heroCarousel">
+                <!-- Slides will be injected by JS -->
+            </div>
+            <button class="btn-prev" id="prevBtn">&#10094;</button>
+            <button class="btn-next" id="nextBtn">&#10095;</button>
+        </section>
+
+        <!-- Featured Articles -->
+        <section class="container">
+            <h2 class="section-title">熱門推薦車款</h2>
+            <div class="article-grid" id="featuredArticles">
+                <!-- Cards will be injected by JS -->
+            </div>
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="articles.html" class="btn">瀏覽所有文章</a>
+            </div>
+        </section>
+
+        <!-- Related Links -->
+        <section style="background-color: var(--light-gray);">
+            <div class="container">
+                <h2 class="section-title">合作夥伴與相關連結</h2>
+                <div class="article-grid">
+                    <a href="#" class="card" style="padding: 2rem; text-align: center; align-items: center;">
+                        <h3>汽車維修手冊</h3>
+                        <p>專業的售後支援服務</p>
+                    </a>
+                    <a href="#" class="card" style="padding: 2rem; text-align: center; align-items: center;">
+                        <h3>保險試算工具</h3>
+                        <p>為您的愛車提供最佳保障</p>
+                    </a>
+                    <a href="#" class="card" style="padding: 2rem; text-align: center; align-items: center;">
+                        <h3>二手車交易平台</h3>
+                        <p>值得信賴的買賣體驗</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <a href="index.html" class="logo" style="color: white;">CAR<span>VISION</span></a>
+                    <p style="margin-top: 1rem; opacity: 0.8;">引領未來的汽車科技與生活方式，為您提供最權威的汽車資訊。</p>
+                </div>
+                <div class="footer-section">
+                    <h3>快速連結</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">網站首頁</a></li>
+                        <li><a href="articles.html">最新文章</a></li>
+                        <li><a href="#">車款比較</a></li>
+                        <li><a href="#">購車指南</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>聯絡資訊</h3>
+                    <ul class="footer-links">
+                        <li>Email: info@carvision.com</li>
+                        <li>Tel: (02) 2345-6789</li>
+                        <li>Address: 台北市信義區汽車大道 100 號</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 CarVision Automotive Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
